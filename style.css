@@ -1,0 +1,239 @@
+h3{
+    color: orange;
+    background-color: lightgray;
+    font-size: 3%;
+}
+h4{
+    color: blue;
+    background-color: lightyellow;
+    font-size: 60px;
+}
+.heading-color1{
+    color: darkgreen;
+    background-color: lightgreen;
+    font-size: 30px;
+}
+.heading-color2{
+    color: darkblue;
+    background-color: lightblue;
+    font-size: 30px;
+}
+
+#heading_1{
+    color: darkred;
+    background-color: lightpink;
+    font-size: 30px;
+}
+
+/* text_format */
+
+.t_transform_uppercase{
+text-transform: uppercase;
+}
+.t_transform_lowercase{
+text-transform: lowercase;
+}
+.t_transform_capaitalize{
+text-transform: capitalize;
+}
+.t_center{
+text-align: center;
+}
+.t_right{
+text-align: right;
+
+}
+.t_left{
+ text-align: left;
+}
+.t_decoration1{
+ text-decoration: overline;
+}
+.t_decoration2{
+text-decoration: underline;
+}
+.t_decoration3{
+text-decoration: line-through;
+}
+.t_decor{
+text-decoration: overline underline line-through;
+}
+.t_indent{
+ text-indent: 60px;
+}
+.t_lineHeight{
+line-height: 27px;
+}
+.t_word_space{
+word-spacing: 30px;
+}
+.t_letter_space{
+letter-spacing: 10px;
+}
+.t_shadow1{
+color: yellow;
+text-shadow: 6px 8px 6px black;
+font-size: 50px;
+}
+.t_shadow2{
+color: blue;
+text-shadow: 6px 8px 6px purple;
+font-size: 50px;
+}
+.t_shadow3{
+color: red;
+text-shadow: 6px 8px 6px black;
+font-size: 50px;
+}
+    /* shadow  */
+.b_shadow{
+box-shadow: 7px 8px 8px red;
+}
+.b_shadow{
+    box-shadow:7px 8px 9px red ;
+}
+.d_shadow{
+    width: 500px;
+    box-shadow:  6px 7px 8px;
+
+}
+/* positions */
+.box{
+    width: 200px;
+    height: 150px;
+    border: 2px solid red;
+    padding: 10px;
+    background-color: aqua;
+    margin-bottom: 20px;    
+}
+.box_static{
+    position: static;
+}
+.box_relative{
+    position: relative;
+    left: 250px;
+    top: 40px;
+}
+.box_abs{
+    position: absolute;
+    left: 300px;
+    top: 40px;
+}
+.box_sticky{
+    position: sticky;
+    top: 10px;
+}
+.box_fixed{
+    position: fixed;
+    bottom: 10px;
+    left: 0px;
+}
+/* font_format */
+.f_family1{
+    font-family: monospace;
+}
+.f_family2{
+    font-family: cursive;
+}
+.f_family3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f_family4{
+    font-family: 'Courier New', Courier, monospace;
+}
+.f_family5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.f_weight{
+    font-weight:900;
+    font-style: italic;
+}
+/* box_model */
+.box_model{
+    border: 6px solid red;
+    /* padding: 30px; */
+    /* margin: 50px; */
+    padding: 50px 70px 50px 70px;
+    margin: 50px 80px 50px 80px;
+}
+/* borderproperties */
+.b_properties1{
+    border: 30px groove yellow;
+}
+.b_properties2{
+    border: 30px solid green;
+}
+.b_properties3{
+    border: 30px dashed purple;
+}
+.b_properties4{
+    border: 30px dotted purple;
+    border-radius: 60px 100px 60px 100px;
+}
+.b_properties5{
+    border: 30px double purple;
+    border-top-left-radius: 60px;
+}
+.b_properties6{
+    border: 30px inset purple;
+    border-radius: 50%;
+}
+.b_properties7{
+    border: 30px outset purple;
+    border-color: aqua pink aqua pink;
+}
+.b_properties8{
+    border: 30px outset purple;
+    border-top-color: blue;
+    
+}
+
+.flex-items{
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 180px;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 10px;
+    border: 2px solid red;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /*horizontal*/
+    align-items: center;
+    /*vertical*/
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.bg_img{
+    background-color: black;
+    background-image: url("../images/pngtree-football-or-soccer-ball-on-transparent-background-png-image_14972374.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1_color{
+    color: white;
+}
+.linear{
+    height: 400px;
+    background: linear-gradient(orange, white, green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radial{
+    height: 800px;
+    background: radial-gradient(circle, black,green,red);
+
+}
+.conic{
+    height: 500px;
+    background: conics;
+}
